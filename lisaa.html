@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF" background="pics/tausta.jpg" bgproperties="fixed">
+
+<form name="uus" method="post" action="lisays.asp">
+<div align="center">
+<table width="100%" cellpadding="0" cellspacing="5" border="0">
+<tr>
+	<td width="10%" rowspan="7">&nbsp;</td>
+	<td class="kuukausi" colspan="2">UUS PILE?<br>&nbsp;</td>
+	<td width="10%" rowspan="7">&nbsp;</td>
+</tr>
+<tr>
+	<td class="pvm">koska?</td>
+	<td>
+<select name="p">
+<%
+for i = 1 to 10
+%>
+<option value="<%=i %>"><%=i %>.</option>
+<%
+next
+%>
+</select> 
+
+<select name="kk">
+<option value="1">tammikuuta</option>
+<option value="2">helmikuuta</option>
+<option value="3">maaliskuuta</option>
+<option value="4">huhtikuuta</option>
+<option value="5">toukokuuta</option>
+<option value="6">kes&auml;kuuta</option>
+<option value="7">hein&auml;kuuta</option>
+<option value="8">elokuuta</option>
+<option value="9">syyskuuta</option>
+<option value="10">lokakuuta</option>
+<option value="11">marraskuuta</option>
+<option value="12">joulukuuta</option>
+</select>
+
+<select name="v">
+<option value="00">2000</option>
+<option value="01">2001</option>
+<option value="02">2002</option>
+</select>
+	</td>
+</tr>
+<tr>
+	<td class="pvm">mitk&auml;s?</td>
+	<td>
+<input type="Text" name="pileet" size="20">
+<input type="Text" name="pileeturl" size="30" value="http://">
+	</td>
+</tr>
+<tr>
+	<td class="pvm">miss&auml;?</td>
+	<td>
+<input type="Text" name="paikka" size="20">
+<input type="Text" name="paikkaurl" size="30" value="http://">
+	</td>
+</tr>
+<tr>
+	<td class="pvm">dj?</td>
+	<td>
+<input type="Text" name="dj" size="57">
+	</td>
+</tr>
+<tr>
+	<td class="pvm">muuta?</td>
+	<td>
+<textarea name="muuta" cols="60" rows="3" wrap="VIRTUAL">
+liput:
+</textarea>
+	</td>
+</tr>
+<tr>
+	<td>&nbsp;</td>
+	<td><input style="background:" type="Image" name="" src="pics/icon_ok.gif" border="0" width="28" height="35" alt="oujeah!"> <a href="javascript:history.go(-1)"><img src="pics/icon_pyh.gif" width=28 height=36 border=0 alt="antaa olla"></a></td>
+</tr>
+</table>
+</div>
+</form>
+
+</body>
+</html>

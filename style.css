@@ -1,0 +1,44 @@
+td { 
+	font-family: Verdana, Arial; 
+	font-size: 13px; 
+	color: #FFFFFF; 
+}
+a { 
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFAAFF;
+	text-decoration: underline
+}
+.pvm { 
+	color: #FFFFFF;
+	text-align: right;
+}
+.pile { 
+	color: #FFFF00;
+	font-weight: bold;
+	text-align: left;
+}
+.paikka { 
+	color: #CCCCCC;
+	font-weight: bold;
+	text-align: left;
+}
+.selitys { 
+	text-align: justify;
+}
+.edellinen { 
+	font-weight: bold;
+	text-align: left;
+}
+.seuraava { 
+	font-weight: bold;
+	text-align: right;
+}
+.kuukausi {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	
+}
