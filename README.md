@@ -1,0 +1,1 @@
+*Klubbaajan Opas... Helsinkiin* oli klubituksen esiversio vuodelta 2000.
